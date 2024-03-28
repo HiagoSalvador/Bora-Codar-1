@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou. */
+        let soma = 0;
+
+       let primeiroNumero = parseFloat(prompt("Digite o primeiro número:"));
+       if (primeiroNumero < 72) {
+       soma += primeiroNumero;
+       }
+
+      let segundoNumero = parseFloat(prompt("Digite o segundo número:"));
+      if (segundoNumero < 72) {
+      soma += segundoNumero;
+     }
+
+      let terceiroNumero = parseFloat(prompt("Digite o terceiro número:"));
+      if (terceiroNumero < 72) {
+      soma += terceiroNumero;
+      }
+
+      let quartoNumero = parseFloat(prompt("Digite o quarto número:"));
+      if (quartoNumero < 72) {
+      soma += quartoNumero;
+      }
+
+      let quintoNumero = parseFloat(prompt("Digite o quinto número:"));
+      if (quintoNumero < 72) {
+      soma += quintoNumero;
+      }
+
+      let sextoNumero = parseFloat(prompt("Digite o sexto número:"));
+      if (sextoNumero < 72) {
+      soma += sextoNumero;
+     }
+
+     document.write("A soma total dos números inferiores a 72 é:" + soma + "<br/>");
+
+     document.write("Todos os números informados:<br>" + primeiroNumero + "<br>" + segundoNumero + "<br>" + terceiroNumero + "<br>" + quartoNumero + "<br>" + quintoNumero + "<br>" + sextoNumero);
+
+    </script>
+</body>
+</html>

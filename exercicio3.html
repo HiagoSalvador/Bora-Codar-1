@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+        let primeiroNumero = prompt("Entre com o primeiro número:");
+        let SegundoNumero = prompt("Entre com o segundo número:");
+        let terceiroNumero = prompt("Entre com o 3 número");
+
+        if(primeiroNumero > SegundoNumero && primeiroNumero > terceiroNumero){
+            document.write("O maior número é: " + primeiroNumero);
+        }
+        else if(SegundoNumero > primeiroNumero && SegundoNumero > terceiroNumero){
+            document.write("O maior número é: " + SegundoNumero);
+        }
+        else{
+            document.write("O maior número é:" + terceiroNumero);
+        }
+
+
+    </script>
+</body>
+</html>
